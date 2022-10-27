@@ -1,0 +1,32 @@
+	Footprinting-and-Reconnaissance;
+	tools-
+ping
+nslookup
+traceroute/tracert
+Whois (TCP port 43)
+[Maltego]
+
+***
+	Labs;
+Networking- https://tryhackme.com/room/whatisnetworking, https://tryhackme.com/room/introtonetworking
+HTTP- https://tryhackme.com/room/httpindetail
+LAN- https://tryhackme.com/room/introtolan
+DNS- https://tryhackme.com/room/dnsindetail
+
+
+	Exploits-
+cache poisoning= spoofing the IP
+trojan-horse program= full network access behind the firewall
+SOA information= vulnerabilities in their services and architectures and exploit them
+Name Server= DNS hijacking and URL redirection
+IP addresses= open ports,  intrude in the network
+	other commands-
+strings= english words from file binary code
+
+	project ideas- https://www.simplilearn.com/top-cyber-security-projects-article
+Port scanner
+Packet Sniffer
+Arp Poisoning tool
+
+ALSO
+learn how to use github.
