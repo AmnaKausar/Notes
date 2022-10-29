@@ -15,6 +15,7 @@ if host unreachable, might be issue with connectivity/OS or firewall is configur
 3. client that connects to a listening port; server that listens on a port with NETCAT/ NC 
 (simple client or server over TCP or UDP)
 traceroute to map the path to the target, ping to check if the target system responds to ICMP Echo, telnet 
+4. Robots.txt; pages allowed and banned from being shown on search engine
 ***
 	Labs;
 Networking- https://tryhackme.com/room/whatisnetworking, https://tryhackme.com/room/introtonetworking
