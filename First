@@ -14,7 +14,7 @@ if host unreachable, might be issue with connectivity/OS or firewall is configur
 (if connected to mail server use SMTP and POP3 commands)
 3. client that connects to a listening port; server that listens on a port with NETCAT/ NC 
 (simple client or server over TCP or UDP)
-
+traceroute to map the path to the target, ping to check if the target system responds to ICMP Echo, telnet 
 ***
 	Labs;
 Networking- https://tryhackme.com/room/whatisnetworking, https://tryhackme.com/room/introtonetworking
