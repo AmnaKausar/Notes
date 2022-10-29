@@ -23,7 +23,7 @@ traceroute to map the path to the target, ping to check if the target system res
 2.1 /Robots.txt; pages allowed and banned from being shown on search engine
 2.2 Favicon; to look up what framework used comparing to owasp database use md5 hash
 2.3 /Sitemap.xml;  list of every file the website owner wishes to be listed on a search engine (also pages site no longer uses but still running)
-
+2.4 HTTP headers give away scripting/programming language and webserver software
 ***
 	Labs;
 Networking- https://tryhackme.com/room/whatisnetworking, https://tryhackme.com/room/introtonetworking
