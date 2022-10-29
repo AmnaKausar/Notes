@@ -4,7 +4,12 @@ ping
 nslookup
 traceroute/tracert
 Whois (TCP port 43)
+nc
+telnet
+netstat
 [Maltego]
+
+curl
 
 ***
 	steps-
