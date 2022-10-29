@@ -1,10 +1,19 @@
-	Footprinting-and-Reconnaissance;
+	*Footprinting-and-Reconnaissance;
 	tools-
 ping
 nslookup
 traceroute/tracert
 Whois (TCP port 43)
 [Maltego]
+
+***
+	steps-
+1. check connectivity and if remote system is online with PING
+if host unreachable, might be issue with connectivity/OS or firewall is configured to block such packets
+2. discovering the type and version of the installed web server with TELNET and HTTP commands. 
+(if connected to mail server use SMTP and POP3 commands)
+3. client that connects to a listening port; server that listens on a port with NETCAT/ NC 
+(simple client or server over TCP or UDP)
 
 ***
 	Labs;
@@ -22,11 +31,13 @@ Name Server= DNS hijacking and URL redirection
 IP addresses= open ports,  intrude in the network
 	other commands-
 strings= english words from file binary code
-
+	
+****
+	
 	project ideas- https://www.simplilearn.com/top-cyber-security-projects-article
 Port scanner
 Packet Sniffer
 Arp Poisoning tool
 
-ALSO
-learn how to use github.
+{ALSO
+learn how to use github.}
