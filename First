@@ -28,7 +28,10 @@ Manual Discovery
 2.4 HTTP headers give away scripting/programming language and webserver software
 2.5 locate framework's website which helps learn more about software
 OSINT
-2.6
+2.6 Google Hacking / Dorking uses filters to get to the point eg; site, inurl, filetype, intitle
+2.7 Wappalyzer helps identify technology used in website and version
+2.8 Wayback Machine
+
 	Labs;
 Networking- https://tryhackme.com/room/whatisnetworking, https://tryhackme.com/room/introtonetworking
 HTTP- https://tryhackme.com/room/httpindetail
