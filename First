@@ -15,7 +15,10 @@ if host unreachable, might be issue with connectivity/OS or firewall is configur
 1.3 client that connects to a listening port; server that listens on a port with NETCAT/ NC 
 (simple client or server over TCP or UDP)
 traceroute to map the path to the target, ping to check if the target system responds to ICMP Echo, telnet 
-2.1 Robots.txt; pages allowed and banned from being shown on search engine, Favicon; to look up what framework used comparing to owasp database use md5 hash
+2.1 /Robots.txt; pages allowed and banned from being shown on search engine
+2.2 Favicon; to look up what framework used comparing to owasp database use md5 hash
+2.3 /Sitemap.xml; 
+
 ***
 	Labs;
 Networking- https://tryhackme.com/room/whatisnetworking, https://tryhackme.com/room/introtonetworking
