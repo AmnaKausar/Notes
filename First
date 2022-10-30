@@ -1,5 +1,17 @@
 	*Footprinting-and-Reconnaissance;
 	tools-
+echo
+whoami
+ls
+cd
+cat
+pwd
+find
+Grep
+operators= & (bkgrnd processes), && (multiple commands), > (new), >> (appends)
+du -a -h -c -d <number>	--time 
+stat
+
 ping
 nslookup
 traceroute/tracert
@@ -41,6 +53,7 @@ Networking- https://tryhackme.com/room/whatisnetworking, https://tryhackme.com/r
 HTTP- https://tryhackme.com/room/httpindetail
 LAN- https://tryhackme.com/room/introtolan
 DNS- https://tryhackme.com/room/dnsindetail
+regexpress- https://tryhackme.com/room/catregex
 	
 	TO DO-
 https://tryhackme.com/room/walkinganapplication
