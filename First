@@ -33,6 +33,7 @@ if host unreachable, might be issue with connectivity/OS or firewall is configur
 1.3 client that connects to a listening port; server that listens on a port with NETCAT/ NC 
 (simple client or server over TCP or UDP)
 traceroute to map the path to the target, ping to check if the target system responds to ICMP Echo, telnet 
+1.4 discovering online systems before port scanning; ARP scan, ICMP scan, TCP/UDP ping scan
 
 	Manual Discovery
 2.1 /Robots.txt; pages allowed and banned from being shown on search engine
@@ -69,11 +70,19 @@ IP addresses= open ports,  intrude in the network
 strings= english words from file binary code
 	
 ****
+	Terms to remember
+network segment
+
 	
 	project ideas- https://www.simplilearn.com/top-cyber-security-projects-article
 Port scanner
 Packet Sniffer
 Arp Poisoning tool
+
+	Python
+for, while loops
+Files (read, write, append)
+import libraries (request- http library, scapy-  network packets, pwntools- exploit development library)
 
 {ALSO
 learn how to use github.}
