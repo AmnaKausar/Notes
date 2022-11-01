@@ -63,6 +63,8 @@ regexpress- https://tryhackme.com/room/catregex
 	TO DO-
 https://tryhackme.com/room/walkinganapplication
 https://hamdisevben.medium.com/tryhackme-python-for-pentesters-47b7ce525b90
+https://www.isecom.org/OSSTMM.3.pdf
+https://www.ietf.org/rfc/rfc3912.txt
 
 	Exploits-
 cache poisoning= spoofing the IP
@@ -75,8 +77,7 @@ strings= english words from file binary code
 	
 ****
 	Terms to remember
-network segment
-
+...
 	
 	project ideas- https://www.simplilearn.com/top-cyber-security-projects-article
 Port scanner
