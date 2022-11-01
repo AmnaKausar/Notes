@@ -1,3 +1,6 @@
+<script src="https://tryhackme.com/badge/1242958"></script>
+
+
 	*Footprinting-and-Reconnaissance;
 	tools-
 echo
@@ -34,6 +37,7 @@ if host unreachable, might be issue with connectivity/OS or firewall is configur
 (simple client or server over TCP or UDP)
 traceroute to map the path to the target, ping to check if the target system responds to ICMP Echo, telnet 
 1.4 discovering online systems before port scanning; ARP scan, ICMP scan, TCP/UDP ping scan
+identify subnets in the networks and amount of local hosts
 
 	Manual Discovery
 2.1 /Robots.txt; pages allowed and banned from being shown on search engine
