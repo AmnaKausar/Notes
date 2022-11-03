@@ -38,6 +38,7 @@ if host unreachable, might be issue with connectivity/OS or firewall is configur
 traceroute to map the path to the target, ping to check if the target system responds to ICMP Echo, telnet 
 1.4 discovering online systems before port scanning; ARP scan, ICMP scan, TCP/UDP ping scan
 identify subnets in the networks and amount of local hosts
+1.5 NMAP can return list of hosts it will scan with sL, (reverse DNS them can remove this option) or just directly scan
 
 	Manual Discovery
 2.1 /Robots.txt; pages allowed and banned from being shown on search engine
