@@ -54,6 +54,10 @@ identify subnets in the networks and amount of local hosts
 requests made automatically and by comparing to wordlists (resource git clone https://github.com/danielmiessler/SecLists)
 2.9 ffuf, dirb and gobuster.
 2.10 robot.txt
+
+	WEB
+...
+
 	Labs;
 Networking- https://tryhackme.com/room/whatisnetworking, https://tryhackme.com/room/introtonetworking
 HTTP- https://tryhackme.com/room/httpindetail
