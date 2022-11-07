@@ -10,6 +10,11 @@ Weak or Default Credentials
 Application Logic
 Human-Factor
 
+version
+
+	exploits
+remote control execution- RCE
+
 https://nvd.nist.gov/vuln/full-listing
 http://exploit-db.com/
 
