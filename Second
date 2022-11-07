@@ -3,9 +3,13 @@
 3.0 HTTP methods
 HTTP requests, Status Code, cookies
 
-Vulnerabilities-
+	Vulnerabilities-
 Operating System
 (Mis)Configuration-based
 Weak or Default Credentials
 Application Logic
 Human-Factor
+
+https://nvd.nist.gov/vuln/full-listing
+http://exploit-db.com/
+
