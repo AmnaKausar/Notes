@@ -66,6 +66,12 @@ requests made automatically and by comparing to wordlists (resource git clone ht
 	WEB
 ...
 
+	common directories-
+/etc system files that are used by your operating system
+-shadow, sudoers, passwd
+/var stores data that is frequently accessed or written by services or applications running on the system
+-log, /tmp store things like our enumeration scripts.
+
 	Labs;
 Networking- https://tryhackme.com/room/whatisnetworking, https://tryhackme.com/room/introtonetworking
 HTTP- https://tryhackme.com/room/httpindetail
