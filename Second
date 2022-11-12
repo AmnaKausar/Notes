@@ -18,3 +18,21 @@ remote control execution- RCE
 https://nvd.nist.gov/vuln/full-listing
 http://exploit-db.com/
 
+recon tools-
+Google (specifically Google Dorking)
+Wikipedia
+PeopleFinder.com
+who.is
+sublist3r
+hunter.io
+builtwith.com
+wappalyzer
+
+enumeration tools-
+dirb (used to find commonly-named directories on a website - like how under https://www.tesla.com there is also https://www.tesla.com/about, https://www.tesla.com/model3, https://www.tesla.com/modely, and most importantly https://www.tesla.com/models WITH LUDICROUS MODE!! ♥) 
+dirbuster (similar to dirb but with a cooler name, and with a user interface)
+enum4linux (tool used specifically for Linux to find vulnerabilities)
+metasploit (this tool is mostly used for exploitation, but it also has some built-in enumeration tools)
+Burp Suite (this tool can be used to scan a website for subdirectories and to intercept network traffic)
+
+exploitation-
