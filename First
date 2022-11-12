@@ -14,7 +14,14 @@ Grep
 operators= & (bkgrnd processes), && (multiple commands), > (new), >> (appends)
 du -a -h -c -d <number>	--time 
 stat
+touch ~create file
+mkdir
+cp
+mv
+rm
+file ~determines file type
 
+ssh user@ip
 ping
 nslookup
 traceroute/tracert
