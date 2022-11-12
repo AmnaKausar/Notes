@@ -5,7 +5,8 @@
 	tools-
 echo
 whoami
-ls
+su ~switch user (-l ~inherit properties of new login user)
+ls (-lh ~permissions)
 cd
 cat
 pwd
