@@ -18,7 +18,7 @@ touch ~create file
 mkdir
 cp
 mv
-rm
+rm (-R ~for directories)
 file ~determines file type
 
 ssh user@ip
