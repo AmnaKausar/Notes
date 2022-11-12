@@ -37,3 +37,4 @@ Burp Suite (this tool can be used to scan a website for subdirectories and to in
 
 exploitation-
 Metasploit buult in script, burpsuite and sqlmap for web apllication exploits
+msfvenom (for building custom payloads) BeEF (browser-based exploitation)
