@@ -29,8 +29,16 @@ extremely difficult (if not impossible) to get an accurate reading of the target
 SYN Scans- not logged by applications listening on open ports, as standard practice is to log a connection once it's been fully established, stealthy
 faster than TCP connect scan cause dont have to do 3 way handshake with every port
 need sudo, unstable services brought down can be problem if working for someone.
+
 	UDP
 when packet sent to open port, should be no response, output : filtered|open
 when port closed, ICMP (Ping) packet sent from target saying closed.
 *TIP
-UDP scan slow; scan Top 20 most commonly used UDP ports; 
+	nmap -sU --top-ports 20 <target>
+UDP scan slow; scan Top 20 most commonly used UDP ports
+
+	NULL, FIN and Xmas TCP (less common)
+more stealthier than SYN
+-sN 
+TCP request with no flag;  target host should respond with a RST if the port is closed
+	
