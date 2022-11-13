@@ -17,10 +17,20 @@ establish which services are running on the targets. open port listening on the 
  -sU : UDP scan
  -sT : TCP connect scan
  -sN/sF/sX: TCP Null, FIN, and Xmas scans
- 
- 	output
-filtered port- firewalls drop packet incoming packets (TCP SYN request)  thus no response and thats how we know
-RST TCP packet ~ iptables -I INPUT -p tcp --dport <port> -j REJECT --reject-with tcp-reset
 
 1. port scanning 
 save the output of our scans -- this means that we only need to run the scan once
+	
+	TCP
+filtered port- firewalls drop packet incoming packets (TCP SYN request)  thus no response and thats how we know
+RST TCP packet~
+	iptables -I INPUT -p tcp --dport <port> -j REJECT --reject-with tcp-reset
+extremely difficult (if not impossible) to get an accurate reading of the target(s).
+SYN Scans- not logged by applications listening on open ports, as standard practice is to log a connection once it's been fully established, stealthy
+faster than TCP connect scan cause dont have to do 3 way handshake with every port
+need sudo, unstable services brought down can be problem if working for someone.
+	UDP
+when packet sent to open port, should be no response, output : filtered|open
+when port closed, ICMP (Ping) packet sent from target saying closed.
+*TIP
+UDP scan slow; scan Top 20 most commonly used UDP ports; 
