@@ -1,4 +1,17 @@
 	NMAP
 establish which services are running on the targets. open port listening on the server and a randomly selected port on your own computer
 
+	Switches-
+ -oA <basename>: Output in the three major formats at once
+ -sS : Syn Scan
+ -sU : UDP scan
+ -O : detect which operating system
+ -sV : detect the version of the services running on the target
+ -vv : lvl two verbose
+ -oN : normal format
+ -oG : "grepable" format
+ -A: Enable OS detection, version detection, script scanning, and traceroute
+ -T<> : increase speed of scan run *fast easily detectable
+ 
 1. port scanning
+save the output of our scans -- this means that we only need to run the scan once
