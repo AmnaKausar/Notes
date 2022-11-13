@@ -18,5 +18,9 @@ establish which services are running on the targets. open port listening on the 
  -sT : TCP connect scan
  -sN/sF/sX: TCP Null, FIN, and Xmas scans
  
-1. port scanning
+ 	output
+filtered port- firewalls drop packet incoming packets (TCP SYN request)  thus no response and thats how we know
+RST TCP packet ~ iptables -I INPUT -p tcp --dport <port> -j REJECT --reject-with tcp-reset
+
+1. port scanning 
 save the output of our scans -- this means that we only need to run the scan once
