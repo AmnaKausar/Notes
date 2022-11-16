@@ -41,4 +41,6 @@ UDP scan slow; scan Top 20 most commonly used UDP ports
 more stealthier than SYN
 -sN 
 TCP request with no flag;  target host should respond with a RST if the port is closed
-	
+
+	.........
+GoBuster is a tool used to brute-force URIs (directories and files), DNS subdomains and virtual host names.
